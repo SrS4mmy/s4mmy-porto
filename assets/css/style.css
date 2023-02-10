@@ -526,10 +526,14 @@ html[light-mode="light"] .navbar-brand:hover{
   text-align: center;
   color: #fff;
   height: 78px;
-  margin: 5px auto 0px;
+  margin: 40px auto 0px;
   display: block;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
+
 
 .svg-inline--fa {
   vertical-align: -0.200em;

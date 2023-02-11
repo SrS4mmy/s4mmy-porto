@@ -98,6 +98,11 @@ section > div {
 /*color of experience page headings*/
 .my_experience {
   color: #4e00bb;
+
+}
+.my_experience_gap {
+  row-gap: 20px;
+
 }
 
 .sub-heading {

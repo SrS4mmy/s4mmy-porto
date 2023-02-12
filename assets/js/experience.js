@@ -25,7 +25,7 @@ const showCards2 = () => {
   exp.forEach(
     ({ title, cardImage, time, desp, href}) =>
       (output += `        
-    <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
+    <div class="col gaap aos-init aos-animate" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
       <div class="card card1">
         <img src="${cardImage}" class="featured-image"/>
         <article class="card-body">
@@ -36,11 +36,10 @@ const showCards2 = () => {
             <p class="meta">
               <span class="author">${time}</span>
             </p>
-            <p>
+            <ol>
             ${desp}
-            <br/>
               <a class="a_href" href="${href}">Click Here</a>
-            </p>
+            </ol>
           </header>
         </article>
       </div>
